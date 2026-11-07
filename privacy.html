@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutz – rclone SecondBrain</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.55; color: #1d1d1f; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #161616; } a { color: #8ab4f8; } }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; margin-top: 1.8rem; }
+  footer { margin-top: 2.5rem; font-size: .9rem; opacity: .8; }
+</style>
+</head>
+<body>
+<h1>Datenschutzerklärung – rclone SecondBrain</h1>
+<p>Stand: 7. November 2026</p>
+
+<h2>Zweck</h2>
+<p>rclone SecondBrain ist ein privater OAuth-Client für das Werkzeug <a href="https://rclone.org/">rclone</a>.
+Er dient ausschließlich dem Inhaber dazu, einen persönlichen Notizordner einseitig vom eigenen Rechner in das
+eigene Google Drive zu kopieren und die Kopie per Prüfsumme zu kontrollieren. Es gibt keine weiteren Nutzer.</p>
+
+<h2>Zugriff auf Google-Daten</h2>
+<ul>
+  <li>Berechtigung: Google Drive (<code>https://www.googleapis.com/auth/drive</code>).</li>
+  <li>Verwendung: Dateien und Ordner im Drive-Ordner des Inhabers auflisten, hochladen, herunterladen
+      (zum Inhaltsvergleich) und ersetzte Fassungen innerhalb dieses Drive in einen Archivordner verschieben.</li>
+  <li>Andere Drive-Inhalte werden nicht gezielt gelesen oder verändert; Dateien werden nicht gelöscht.</li>
+</ul>
+
+<h2>Speicherung und Weitergabe</h2>
+<ul>
+  <li>Die OAuth-Zugangsdaten speichert rclone nur lokal auf dem Rechner des Inhabers.</li>
+  <li>Es gibt keinen Server dieser Anwendung; Daten werden nur zwischen dem Rechner des Inhabers und seinem
+      Google Drive übertragen.</li>
+  <li>Keine Weitergabe, kein Verkauf, keine Werbung, keine Analyse und kein Training von KI-Modellen mit diesen Daten.</li>
+  <li>Die Nutzung von Daten aus Google-APIs entspricht der
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>
+      einschließlich der Anforderungen zur eingeschränkten Nutzung (Limited Use).</li>
+</ul>
+
+<h2>Widerruf</h2>
+<p>Der Zugriff kann jederzeit unter <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+widerrufen werden.</p>
+
+<h2>Diese Webseite</h2>
+<p>Diese Seiten werden über GitHub Pages bereitgestellt, setzen keine Cookies und enthalten keine Analysewerkzeuge.
+Beim Abruf kann GitHub technische Zugriffsdaten verarbeiten; siehe die
+<a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">Datenschutzerklärung von GitHub</a>.</p>
+
+<h2>Kontakt</h2>
+<p>Inhaber: GitHub-Konto <a href="https://github.com/S-4-K">S-4-K</a>; Anfragen über die
+<a href="https://github.com/S-4-K/rclone-secondbrain/issues">Issues dieses Repositorys</a>.</p>
+
+<h2>English summary</h2>
+<p>This private OAuth client is used only by its owner with rclone to copy a personal folder one way to the owner's
+own Google Drive and verify it by checksum. Credentials stay on the owner's computer; there is no server; no data is
+shared, sold, used for advertising, analytics or AI training. Use of Google API data complies with the Google API
+Services User Data Policy, including the Limited Use requirements. Access can be revoked at
+myaccount.google.com/permissions.</p>
+
+<footer><a href="index.html">Startseite</a></footer>
+</body>
+</html>
